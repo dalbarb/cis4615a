@@ -1,6 +1,7 @@
 public class R07_ERR00_J {
 
-	// ERR00-J. Do not suppress or ignore checked exceptions Given the non-compliant code below:
+	// ERR00-J. Do not suppress or ignore checked exceptions 
+	// Given the non-compliant code below:
 	try {
 	  //...
 	} catch (IOException ioe) {

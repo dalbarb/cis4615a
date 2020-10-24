@@ -1,6 +1,7 @@
 public class R01_DCL02_J {
 
-	// DCL02-J. Do not modify the collection's elements during an enhanced for statement Given the non-compliant code below:
+	// DCL02-J. Do not modify the collection's elements during an enhanced for statement 
+	// Given the non-compliant code below:
 	List<Integer> list = Arrays.asList(new Integer[] {13, 14, 15});
 	boolean first = true;
 	 

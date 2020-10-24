@@ -1,6 +1,7 @@
 public class R13_FIO05_J {
 
-	// FIO05-J. Do not expose buffers or their backing arrays methods to untrusted code Given the non-compliant code below:
+	// FIO05-J. Do not expose buffers or their backing arrays methods to untrusted code 
+	// Given the non-compliant code below:
 	final class Wrap {
 	  private char[] dataArray;
 	 

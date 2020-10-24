@@ -1,6 +1,7 @@
 public class R10_THI00_J {
 
-	// THI00-J. Do not invoke Thread.run() Given the non-compliant code below:
+	// THI00-J. Do not invoke Thread.run() 
+	// Given the non-compliant code below:
 	public final class Foo implements Runnable {
 	  @Override public void run() {
 	    // ...
