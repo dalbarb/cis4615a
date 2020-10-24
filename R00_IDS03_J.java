@@ -1,6 +1,7 @@
 public class R00_IDS03_J {
 
-	// IDS03-J. Do not log unsanitized user input Given the non-compliant code below:
+	// IDS03-J. Do not log unsanitized user input 
+	// Given the non-compliant code below:
 	if (loginSuccessful) {
 		logger.severe("User login succeeded for: " + username);
 	} else {
